@@ -36,7 +36,7 @@ public class Cliente {
         return clienteDesde;
     }
 
-    public void setClienteDesde (LocalDate getClienteDesde) {
+    public void setClienteDesde (LocalDate ClienteDesde) {
         this.clienteDesde = clienteDesde;
     }
 
