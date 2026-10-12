@@ -33,7 +33,7 @@ public class ClienteController {
         return clienteRepository.findById(id);
     }
 
-    @DeleteMapping
+    @DeleteMapping("/{id}")
     public void excluir(@PathVariable Long id) {
         clienteRepository.deleteById(id);
     }
